@@ -126,3 +126,71 @@ export default {
   },
 }
 </script>
+
+<style>
+.container {
+  padding:5px 10px;
+}
+h1 {
+  font-size: 60pt;
+  color: #345980;
+}
+p {
+  padding-top:5px;
+  font-size: 20pt;
+}
+div {
+  font-size:14pt;
+}
+pre {
+  padding: 10pt;
+  font-size: 18pt;
+  background-color: #efefef;
+}
+input {
+  font-size:14pt;
+  margin: 5px;
+}
+textarea {
+  font-size:14pt;
+  margin:5px;
+}
+button {
+  font-size: 14pt;
+  padding:1px 10px;
+  margin:5px;
+}
+hr {
+  border-style: none;
+  border-top: solid;
+  border-width: 5px;
+  border-color:#def;
+  margin:20px 0px 10px 0px;
+}
+li {
+  font-size:14pt;
+  height: 32px;
+}
+th {
+  background-color: #345980;
+  color: white;
+}
+td {
+  background-color:aliceblue;
+  color:#345980;
+  padding:5px;
+}
+.nav {
+  padding:0px 10px;
+  cursor: pointer;
+}
+.list{
+  cursor: pointer;
+}
+.del-enter-active, .del-leave-active{
+  transition: opacity .5s;
+}
+.del-enter, .del-leave-to{
+  opacity: 0;
+}
+</style>
